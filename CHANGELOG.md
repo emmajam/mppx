@@ -1,5 +1,19 @@
 # mppx
 
+## 0.6.29
+
+### Patch Changes
+
+- 5aed74b: Replaced Tempo session `authorizedSigner` options with `voucherSigner` accounts and added raw access-key voucher signing.
+- d337c11: Preserved charge supported modes and split payment defaults in challenges.
+- c95f4e2: Applied strict session fee-payer call validation to relay-sponsored transactions.
+- 2f5b92a: Bound session voucher verification to stored channel chain metadata.
+- 165bc9c: Required expiring nonce keys for fee-sponsored transactions.
+- a171438: Blocked WebSocket session metering after channel close requests.
+- ae76fb4: Retried payment credentials against the final challenge response URL.
+- 6715802: Stripped caller-supplied OpenAI tenant headers before proxying requests.
+- fbb7057: Added EVM charge support with x402 exact compatibility and resource-bound payment payload verification.
+
 ## 0.6.28
 
 ### Patch Changes
